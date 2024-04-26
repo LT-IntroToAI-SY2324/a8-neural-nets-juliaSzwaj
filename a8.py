@@ -30,7 +30,7 @@ voter_nn = NeuralNet(5, 10, 1)
 
 voter_nn.train(voter_data)
 
-print(voter_nn.test_with_expected(voter_data))
+#print(voter_nn.test_with_expected(voter_data))
 
 voter_test = [
     [1, 1, 1, .1, .1],
